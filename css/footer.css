@@ -1,0 +1,114 @@
+.footer {
+  padding: 100px 0;
+  background: #2e2f42;
+}
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 0 120px;
+  padding: 0 15px;
+}
+.footer-left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 264px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0;
+}
+.logo-accent-footer {
+  color: #f4f4fd;
+}
+.footer-desc {
+  color: #f4f4fd;
+}
+.footer .social-list {
+  gap: 16px;
+}
+.social-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 0 0 120px;
+}
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.social-block .social-list .social-link:hover,
+.social-block .social-list .social-link:focus {
+  background: #31d0aa;
+}
+.subscribe-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: auto;
+}
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+/*Footer form*/
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: 250ms ease;
+  transition-property: border-color;
+}
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+.footer-form-input::placeholder {
+  color: #fff;
+}
+.footer-form .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  max-width: 165px;
+  height: 40px;
+  transition: 250ms ease;
+  transition-property: background-color;
+}
+.footer-form .button:hover,
+.footer-form .button:focus {
+  background-color: #31d0aa;
+}
