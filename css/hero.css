@@ -17,7 +17,6 @@
   .hero {
     max-width: 768px;
     padding: 112px 0;
-    justify-content: flex-start;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       image-set(
@@ -29,7 +28,6 @@
 @media screen and (min-width: 1158px) {
   .hero {
     max-width: 1440px;
-    height: 600px;
     padding: 188px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
